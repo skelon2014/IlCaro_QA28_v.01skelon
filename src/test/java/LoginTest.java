@@ -14,7 +14,7 @@ public class LoginTest extends TestBase {
         }
     }
 
-  /* @Test
+    @Test
     public void loginTestPositive() {
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm("skelon+2@bk.ru", "Qwerty$4");
@@ -28,7 +28,7 @@ public class LoginTest extends TestBase {
         //String message = wd.findElement(By.xpath("//div[@class='dialog-container']//h2")).getText();
         // click(By.xpath("//*[@type='button']"));
 
-    }*/
+    }
 
     @Test
     public void loginTestPositiveDto() {
