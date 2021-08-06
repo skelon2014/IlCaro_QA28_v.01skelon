@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.testng.xml.dom.ParentSetter;
 
 public class LoginTest extends TestBase {
 
@@ -18,7 +17,7 @@ public class LoginTest extends TestBase {
     public void loginTestPositive() {
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm("skelon+2@bk.ru", "Qwerty$4");
-        app.userHelper().submitLogin();
+        app.userHelper().submitForm();
         app.userHelper().pause(3000);
         String message = app.userHelper().getText(By.xpath("//div[@class='dialog-container']//h2"));
         app.userHelper().clickOK();
@@ -33,13 +32,13 @@ public class LoginTest extends TestBase {
     @Test
     public void loginTestPositiveDto() {
         User user = new User().withEmail("skelon+2@bk.ru").withPassword("Qwerty$4");
-        app.userHelper().openLoginForm();
-        app.userHelper().fillLoginForm(user);
-        app.userHelper().submitLogin();
-        app.userHelper().pause(3000);
-        String message = app.userHelper().getText(By.xpath("//div[@class='dialog-container']//h2"));
+        TestBase.app.userHelper().openLoginForm();
+        TestBase.app.userHelper().fillLoginForm(user);
+        TestBase.app.userHelper().submitForm();
+        TestBase.app.userHelper().pause(3000);
+        String message = TestBase.app.userHelper().getText(By.xpath("//div[@class='dialog-container']//h2"));
         Assert.assertEquals(message, "Logged in success");
-        app.userHelper().clickOK();
+        TestBase.app.userHelper().clickOK();
 
     }
 

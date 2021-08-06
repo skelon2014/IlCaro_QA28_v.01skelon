@@ -4,6 +4,8 @@ import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CarHelper extends HelperBase{
     public CarHelper(WebDriver wd) {
@@ -69,4 +71,11 @@ public class CarHelper extends HelperBase{
     public boolean isCarAdded() {
         return wd.findElements(By.xpath("//mat-chip[@role='option']")).size() > 0;
     }
+
+public void clickButtonSubmit(){
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.xpath("//button[text()='Submit']"))));
+        click(By.xpath("//button[text()='Submit']"));
 }
+}
+

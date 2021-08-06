@@ -1,23 +1,23 @@
 import models.Car;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class CreateNewCarTest extends TestBase{
+public class CreateNewCarTest extends TestBase {
     @BeforeMethod
-    public void precondition(){
+    public void precondition() {
         if (app.userHelper().isLogined()) {
             app.userHelper().openLoginForm();
             app.userHelper().fillLoginForm("skelon+2@bk.ru", "Qwerty$4");
-            app.userHelper().submitLogin();
+            app.userHelper().submitForm();
             app.userHelper().pause(3000);
             app.userHelper().clickOK();
         }
     }
+
     @Test
-    public void createNewCar(){
-        int x =(int) ((System.currentTimeMillis()/1000) % 36);
+    public void createNewCar() {
+        int x = (int) ((System.currentTimeMillis() / 1000) % 36);
         System.out.println(x);
         Car car = Car.builder()
                 .address("Tel Aviv, Israel")
@@ -32,7 +32,7 @@ public class CreateNewCarTest extends TestBase{
                 .seats("4")
                 .clasS("C")
                 .fuelConsumption("6.5")
-                .carRegNumber("102-67-"+x)
+                .carRegNumber("102-67-" + x)
                 .price("65")
                 .distanceIncluded("500")
                 .typeFeature("type of")

@@ -7,7 +7,8 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     WebDriver wd;
     UserHelper userHelper;
-    CarHelper carHelper;
+    CarHelper carHelper;;
+    SearchHelper search;
 
 
     public void init(){
@@ -17,9 +18,11 @@ public class ApplicationManager {
         wd.navigate().to("https://ilcarro.xyz/search");
         userHelper = new UserHelper(wd);
         carHelper = new CarHelper(wd);
+        search = new SearchHelper(wd);
     }
 
-    public void stop(){
+    public void stop() throws InterruptedException {
+        Thread.sleep(1000);
         wd.quit();
     }
 
@@ -31,6 +34,7 @@ public class ApplicationManager {
         return carHelper;
     }
 
-
-
+    public SearchHelper search() {
+        return search;
+    }
 }

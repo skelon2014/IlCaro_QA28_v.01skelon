@@ -1,12 +1,8 @@
 import application.ApplicationManager;
+import models.User;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-
-import java.util.concurrent.TimeUnit;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
 public class TestBase {
     protected static ApplicationManager app = new ApplicationManager();
@@ -17,7 +13,9 @@ public class TestBase {
     }
 
     @AfterClass
-    public void tearDown()  {
-      //  app.stop();
+    public void tearDown() throws InterruptedException {
+        app.stop();
     }
+
+
 }

@@ -26,7 +26,7 @@ public class UserHelper extends HelperBase {
         type(By.id("password"), user.getPassword());
     }
 
-    public void submitLogin() {
+    public void submitForm() {
         click(By.xpath("//*[@type='submit']"));
     }
 
