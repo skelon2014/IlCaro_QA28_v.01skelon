@@ -69,7 +69,8 @@ public class CarHelper extends HelperBase{
     }
 
     public boolean isCarAdded() {
-        return wd.findElements(By.xpath("//mat-chip[@role='option']")).size() > 0;
+        String text = wd.findElement(By.xpath("//div[@class='dialog-container']//h1")).getText();
+        return text.contains("Car added");
     }
 
 public void clickButtonSubmit(){
@@ -77,5 +78,9 @@ public void clickButtonSubmit(){
                 .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.xpath("//button[text()='Submit']"))));
         click(By.xpath("//button[text()='Submit']"));
 }
+
+    public void submitCar() {
+        click(By.xpath("//button[text() ='Search cars']"));
+    }
 }
 

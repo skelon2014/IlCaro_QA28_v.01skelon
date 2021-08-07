@@ -38,7 +38,8 @@ public class SearchHelper extends HelperBase {
         return isElementPresent(By.cssSelector("div.search-results"));
     }
 
-    public boolean isDateInPath() {
+    public boolean isDateInPath() throws InterruptedException {
+        Thread.sleep(3000);
         WebElement warning = wd.findElement(By.xpath("//div[@class='ng-star-inserted']"));
         String warningTxt = warning.getText();
         new WebDriverWait(wd, 30)
