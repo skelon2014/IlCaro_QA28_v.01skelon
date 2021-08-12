@@ -16,7 +16,7 @@ public class LoginTest extends TestBase {
     @Test
     public void loginTestPositive() {
         app.userHelper().openLoginForm();
-        app.userHelper().fillLoginForm("skelon+2@bk.ru", "Qwerty$4");
+        app.userHelper().fillLoginForm("skelon222@bk.ru", "Qwerty$4");
         app.userHelper().submitForm();
         app.userHelper().pause(3000);
         String message = app.userHelper().getText(By.xpath("//div[@class='dialog-container']//h2"));
@@ -31,7 +31,7 @@ public class LoginTest extends TestBase {
 
     @Test
     public void loginTestPositiveDto() {
-        User user = new User().withEmail("skelon+2@bk.ru").withPassword("Qwerty$4");
+        User user = new User().withEmail("skelon222@bk.ru").withPassword("Qwerty$4");
         TestBase.app.userHelper().openLoginForm();
         TestBase.app.userHelper().fillLoginForm(user);
         TestBase.app.userHelper().submitForm();

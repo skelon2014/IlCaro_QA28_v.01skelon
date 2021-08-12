@@ -40,7 +40,7 @@ public class ApplicationManager {
 
     public void stop() throws InterruptedException {
         Thread.sleep(1000);
-        //wd.quit();
+        wd.quit();
     }
 
     public UserHelper userHelper() {

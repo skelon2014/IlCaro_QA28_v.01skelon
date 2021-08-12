@@ -9,7 +9,7 @@ public class CreateNewCarTest extends TestBase {
     public void precondition() {
         if (app.userHelper().isLogined()) {
             app.userHelper().openLoginForm();
-            app.userHelper().fillLoginForm("skelon+2@bk.ru", "Qwerty$4");
+            app.userHelper().fillLoginForm("skelon222@bk.ru", "Qwerty$4");
             app.userHelper().submitForm();
             app.userHelper().pause(3000);
             app.userHelper().clickOK();

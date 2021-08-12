@@ -1,0 +1,57 @@
+13:05:13 INFO  application.ApplicationManager - Start browser CHROME
+13:05:15 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+13:05:15 INFO  TestBase - =================================
+13:05:15 INFO  TestBase - Start on method - selectPeriodCurrentMonth
+13:05:20 INFO  TestBase - End off method - selectPeriodCurrentMonth
+13:05:56 INFO  application.ApplicationManager - Start browser CHROME
+13:05:58 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+13:05:58 INFO  TestBase - =================================
+13:05:58 INFO  TestBase - Start on method - createNewCar
+13:06:25 INFO  TestBase - =================================
+13:06:25 INFO  TestBase - Start on method - loginTestPositive
+13:06:39 INFO  TestBase - End off method - loginTestPositive
+13:06:39 INFO  TestBase - =================================
+13:06:39 INFO  TestBase - Start on method - loginTestPositiveDto
+13:06:54 INFO  TestBase - End off method - loginTestPositiveDto
+13:06:54 INFO  TestBase - =================================
+13:06:54 INFO  TestBase - Start on method - registrationTestCSV
+13:07:05 INFO  TestBase - Test passed
+13:07:08 INFO  TestBase - End off method - registrationTestCSV
+13:07:08 INFO  TestBase - =================================
+13:07:08 INFO  TestBase - Start on method - registrationTestCSV
+13:07:10 INFO  TestBase - Test passed
+13:07:12 INFO  TestBase - End off method - registrationTestCSV
+13:07:12 INFO  TestBase - =================================
+13:07:12 INFO  TestBase - Start on method - registrationTestCSV
+13:07:15 INFO  TestBase - Test passed
+13:07:17 INFO  TestBase - End off method - registrationTestCSV
+13:07:17 INFO  TestBase - =================================
+13:07:17 INFO  TestBase - Start on method - registrationTestPositive
+13:07:17 INFO  TestBase - Registration with -> Name: Serg, Lastname: Aser, Email: skelon1483@bk.ru, Password: Qwerty$4
+13:07:17 INFO  TestBase - Test passed
+13:07:23 INFO  TestBase - End off method - registrationTestPositive
+13:07:23 INFO  TestBase - =================================
+13:07:23 INFO  TestBase - Start on method - registrationTestWithoutCSV
+13:07:24 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka
+13:07:25 INFO  TestBase - Test passed
+13:07:28 INFO  TestBase - End off method - registrationTestWithoutCSV
+13:07:28 INFO  TestBase - =================================
+13:07:28 INFO  TestBase - Start on method - registrationTestWithoutCSV
+13:07:28 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka
+13:07:30 INFO  TestBase - Test passed
+13:07:32 INFO  TestBase - End off method - registrationTestWithoutCSV
+13:07:32 INFO  TestBase - =================================
+13:07:32 INFO  TestBase - Start on method - registrationTestWithoutCSV
+13:07:33 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka
+13:07:34 INFO  TestBase - Test passed
+13:07:37 INFO  TestBase - End off method - registrationTestWithoutCSV
+13:07:37 INFO  TestBase - =================================
+13:07:37 INFO  TestBase - Start on method - negativeTestSendKey
+13:07:48 INFO  TestBase - End off method - negativeTestSendKey
+13:07:48 INFO  TestBase - =================================
+13:07:48 INFO  TestBase - Start on method - positiveTestSendKey
+13:07:48 INFO  TestBase - "Haifa", "08/13/2021", "08/31/2021"
+13:07:53 INFO  TestBase - End off method - positiveTestSendKey
+13:07:53 INFO  TestBase - =================================
+13:07:53 INFO  TestBase - Start on method - selectPeriodCurrentMonth
+13:07:58 INFO  TestBase - End off method - selectPeriodCurrentMonth

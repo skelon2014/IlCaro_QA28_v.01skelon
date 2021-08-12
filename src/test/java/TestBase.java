@@ -1,11 +1,11 @@
 import application.ApplicationManager;
-import models.User;
-import org.openqa.selenium.By;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 import java.lang.reflect.Method;
 
@@ -17,8 +17,11 @@ public class TestBase {
 
     @BeforeMethod
     public void startLogger(Method m){
+        logger.info("=================================");
         logger.info("Start on method - " + m.getName());
+
     }
+
     @AfterMethod
     public void endOfLogger(Method m){
         logger.info("End off method - " + m.getName());

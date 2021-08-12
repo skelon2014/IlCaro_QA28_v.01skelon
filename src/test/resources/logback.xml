@@ -1,6 +1,5 @@
 <configuration>
 
-
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!-- encoders are assigned the type
              ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
@@ -9,7 +8,8 @@
         </encoder>
     </appender>
 
-    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmm"/>
+
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>Logs/log-${bySecond}.log</file>
 
