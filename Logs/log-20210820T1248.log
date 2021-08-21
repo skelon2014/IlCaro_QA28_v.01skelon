@@ -1,0 +1,5 @@
+12:48:45 INFO  application.ApplicationManager - Start browser CHROME
+12:48:47 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+12:48:47 INFO  TestBase - =================================
+12:48:47 INFO  TestBase - Start on method - registrationTestWithoutCSV
+12:48:47 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka

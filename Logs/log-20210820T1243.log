@@ -1,0 +1,6 @@
+12:43:16 INFO  application.ApplicationManager - Start browser CHROME
+12:43:19 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+12:43:30 INFO  TestBase - Test passed
+12:43:32 INFO  TestBase - Registration with -> Name: Serg, Lastname: Aser, Email: skelon2061@bk.ru, Password: Qwerty$4
+12:43:32 INFO  TestBase - Test passed
+12:43:44 INFO  TestBase - "Haifa", "08/13/2021", "08/31/2021"

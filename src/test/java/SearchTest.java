@@ -8,7 +8,7 @@ public class SearchTest extends TestBase {
     public void positiveTestSendKey() {
         //with concatinate String from 1 date to 2 date
         logger.info("\"Haifa\", \"08/13/2021\", \"08/31/2021\"");
-        app.search().typeSearchCurrentMonth("Haifa", "08/13/2021", "08/31/2021");
+        app.search().typeSearchCurrentMonth("Haifa", "08/21/2021", "08/31/2021");
 
         app.userHelper().submitForm();
         app.carHelper().pause(2000);
@@ -19,7 +19,7 @@ public class SearchTest extends TestBase {
     public void negativeTestSendKey() throws InterruptedException {
 
         //with concatinate String from 1 date to 2 date
-        app.search().typeSearchCurrentMonth("Haifa", "08/05/2021", "08/10/2021");
+        app.search().typeSearchCurrentMonth("Haifa", "08/11/2021", "08/30/2021");
 
         app.carHelper().pause(2000);
         Assert.assertTrue(app.search().isDateInPath());

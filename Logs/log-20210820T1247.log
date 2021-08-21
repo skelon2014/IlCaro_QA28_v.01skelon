@@ -1,0 +1,7 @@
+12:47:28 INFO  application.ApplicationManager - Start browser CHROME
+12:47:30 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+12:47:30 INFO  TestBase - =================================
+12:47:30 INFO  TestBase - Start on method - registrationTestPositive
+12:47:30 INFO  TestBase - Registration with -> Name: Serg, Lastname: Aser, Email: skelon2085@bk.ru, Password: Qwerty$4
+12:47:30 INFO  TestBase - Test passed
+12:47:36 INFO  TestBase - End off method - registrationTestPositive

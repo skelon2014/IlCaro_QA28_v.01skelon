@@ -1,0 +1,53 @@
+15:36:53 INFO  application.ApplicationManager - Start browser CHROME
+15:36:56 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+15:36:56 INFO  TestBase - =================================
+15:36:56 INFO  TestBase - Start on method - createNewCar
+15:37:17 INFO  TestBase - End off method - createNewCar
+15:37:17 INFO  TestBase - =================================
+15:37:17 INFO  TestBase - Start on method - loginTestPositive
+15:37:32 INFO  TestBase - End off method - loginTestPositive
+15:37:32 INFO  TestBase - =================================
+15:37:32 INFO  TestBase - Start on method - loginTestPositiveDto
+15:37:46 INFO  TestBase - End off method - loginTestPositiveDto
+15:37:46 INFO  TestBase - =================================
+15:37:46 INFO  TestBase - Start on method - registrationTestCSV
+15:37:59 INFO  TestBase - Test passed
+15:38:01 INFO  TestBase - End off method - registrationTestCSV
+15:38:01 INFO  TestBase - =================================
+15:38:01 INFO  TestBase - Start on method - registrationTestCSV
+15:38:04 INFO  TestBase - Test passed
+15:38:06 INFO  TestBase - End off method - registrationTestCSV
+15:38:06 INFO  TestBase - =================================
+15:38:06 INFO  TestBase - Start on method - registrationTestCSV
+15:38:08 INFO  TestBase - Test passed
+15:38:11 INFO  TestBase - End off method - registrationTestCSV
+15:38:11 INFO  TestBase - =================================
+15:38:11 INFO  TestBase - Start on method - registrationTestPositive
+15:38:11 INFO  TestBase - Registration with -> Name: Serg, Lastname: Aser, Email: skelon3109@bk.ru, Password: Qwerty$4
+15:38:11 INFO  TestBase - Test passed
+15:38:17 INFO  TestBase - End off method - registrationTestPositive
+15:38:17 INFO  TestBase - =================================
+15:38:17 INFO  TestBase - Start on method - registrationTestWithoutCSV
+15:38:18 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka
+15:38:19 INFO  TestBase - Test passed
+15:38:22 INFO  TestBase - End off method - registrationTestWithoutCSV
+15:38:22 INFO  TestBase - =================================
+15:38:22 INFO  TestBase - Start on method - registrationTestWithoutCSV
+15:38:22 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka
+15:38:24 INFO  TestBase - Test passed
+15:38:27 INFO  TestBase - End off method - registrationTestWithoutCSV
+15:38:27 INFO  TestBase - =================================
+15:38:27 INFO  TestBase - Start on method - registrationTestWithoutCSV
+15:38:27 INFO  TestBase - Registration with --> Name: Sergey, Lastname: Jamayka
+15:38:29 INFO  TestBase - Test passed
+15:38:31 INFO  TestBase - End off method - registrationTestWithoutCSV
+15:38:31 INFO  TestBase - =================================
+15:38:31 INFO  TestBase - Start on method - negativeTestSendKey
+15:38:50 INFO  TestBase - End off method - negativeTestSendKey
+15:38:50 INFO  TestBase - =================================
+15:38:50 INFO  TestBase - Start on method - positiveTestSendKey
+15:38:50 INFO  TestBase - "Haifa", "08/13/2021", "08/31/2021"
+15:38:55 INFO  TestBase - End off method - positiveTestSendKey
+15:38:55 INFO  TestBase - =================================
+15:38:55 INFO  TestBase - Start on method - selectPeriodCurrentMonth
+15:39:01 INFO  TestBase - End off method - selectPeriodCurrentMonth
