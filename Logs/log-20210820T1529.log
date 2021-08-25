@@ -1,5 +1,0 @@
-15:29:57 INFO  application.ApplicationManager - Start browser CHROME
-15:29:59 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
-15:29:59 INFO  TestBase - =================================
-15:29:59 INFO  TestBase - Start on method - registrationTestCSV
-15:30:01 INFO  TestBase - Test passed

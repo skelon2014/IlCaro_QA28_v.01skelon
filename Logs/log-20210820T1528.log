@@ -1,4 +1,0 @@
-15:28:46 INFO  application.ApplicationManager - Start browser CHROME
-15:28:48 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
-15:28:50 INFO  TestBase - Test passed
-15:29:33 INFO  TestBase - "Haifa", "08/13/2021", "08/31/2021"
